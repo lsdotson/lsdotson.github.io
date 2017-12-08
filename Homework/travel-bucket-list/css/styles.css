@@ -1,0 +1,55 @@
+body {
+	font-family: verdana;
+}
+
+.toparea {
+	background-color: #71697A;
+	color: white;
+	text-align: center;
+	margin: 0 auto;
+	padding: 20px 0px;
+}
+
+.nav li {
+	list-style: none;
+	display: inline;
+	padding: 0px 20px;
+}
+
+.nav {
+	width: 400px;
+	margin: 0 auto;
+	padding: 10px 0px;
+}
+
+.location {
+	text-align: center;
+	padding: 30px 0px;
+	margin-bottom: 20px;
+}
+
+.maui {
+	background-color: #F2F6D0;
+}
+
+.reykjavik {
+	background-color: #D0E1D4;
+}
+
+.aspen {
+	background-color: #D9D2B6;
+}
+
+.location p {
+	text-align: left;
+	padding: 0px 15px;
+}
+
+.footer p {
+	text-align: center;
+	padding: 20px 0px;
+}
+
+.location img {
+	padding: 20px 0px;
+}
