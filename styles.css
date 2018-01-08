@@ -66,6 +66,17 @@
 	width: 100%;
 }
 
+
+
+
+
+
+
+
+
+
+
+
 h1 {
 	font-family: 'Ultra', serif;
 	font-size: 88px;
@@ -87,6 +98,8 @@ h3 {
 }
 
 
+
+
 .hero {
 	text-align: left;
 	margin-bottom: 100px;
@@ -95,18 +108,13 @@ h3 {
 }
 
 .work {
-	background-color: #FFBEB2;
-	padding: 40px;
+	padding: 30px;
 	margin: -20px;
 
 }
 
 .myname {
 	padding-left: 30px;
-}
-
-.social {
-	text-align: right;
 }
 
 
@@ -143,8 +151,5 @@ a.cstitle {
     color: black;
 }
 
-a.cstitle:hover {
-    color: blue;
-}
 
 
