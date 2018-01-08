@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="116px" height="116px" viewBox="0 0 116 116" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Watermelon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-1569.000000, -1269.000000)">
+        <g id="Watermelon" transform="translate(1569.000000, 1269.000000)">
+            <g id="Group-13">
+                <path d="M71.1818182,115.591115 C82.294283,115.591115 97.0041711,110.482336 115.311483,100.26478 L15.548702,0 C5.18290068,18.4081703 0,33.2112692 0,44.4092965 C0,83.7219291 31.8691855,115.591115 71.1818182,115.591115 Z" id="Oval-2" fill="#00B16A"></path>
+                <path d="M79.025613,108.532069 C85.2317244,108.532069 96.9774816,105.071815 114.262885,98.1513074 L15.4669468,0 C8.67080045,17.0331473 5.27272727,28.6262085 5.27272727,34.7791835 C5.27272727,75.5117776 38.293019,108.532069 79.025613,108.532069 Z" id="Oval-2" fill="#D7263D"></path>
+            </g>
+        </g>
+    </g>
+</svg>

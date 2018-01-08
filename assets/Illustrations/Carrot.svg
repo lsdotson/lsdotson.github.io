@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="109px" height="111px" viewBox="0 0 109 111" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Carrot</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-770.000000, -1274.000000)">
+        <g id="Carrot" transform="translate(765.000000, 1272.000000)">
+            <ellipse id="Oval-6" fill="#00B16A" transform="translate(35.709009, 20.459961) rotate(-15.000000) translate(-35.709009, -20.459961) " cx="35.7090091" cy="20.4599607" rx="10.102649" ry="18.4566667"></ellipse>
+            <ellipse id="Oval-6" fill="#00B16A" transform="translate(21.929413, 32.349145) rotate(-60.000000) translate(-21.929413, -32.349145) " cx="21.9294128" cy="32.349145" rx="10.102649" ry="18.4566667"></ellipse>
+            <path d="M50.0165563,80.2564844 C58.0583351,87.2410026 108.880049,116.71331 113.058723,112.025964 C116.685026,107.95823 91.2324995,62.7458984 82.4540692,50.85 C73.675639,38.9541016 62.6221814,27.8733333 50.0165563,27.8733333 C37.4109312,27.8733333 27.192053,38.1603374 27.192053,50.85 C27.192053,63.5396626 40.5767916,72.0577748 50.0165563,80.2564844 Z" id="Oval-5" fill="#F5A623"></path>
+        </g>
+    </g>
+</svg>

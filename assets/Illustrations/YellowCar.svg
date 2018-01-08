@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="195px" height="89px" viewBox="0 0 195 89" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>YellowCar</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-565.000000, -940.000000)">
+        <g id="YellowCar" transform="translate(565.000000, 940.000000)">
+            <path d="M47,2 C52.4078741,-0.0916358647 78.7412074,-0.0916358647 126,2 L150.234375,28.3808594 C170.198973,30.3937787 182.032957,33.4754844 185.736328,37.6259766 C195.68964,48.7809881 196.969588,60.6563136 189.576172,73.2519531 L13.7597656,73.2519531 C4.97721354,71.4127604 0.5859375,67.0970052 0.5859375,60.3046875 C0.5859375,50.1162109 38.8881888,5.1374538 47,2 Z" id="Rectangle-35" fill="#F9DC5C"></path>
+            <path d="M77,10 L77,30 L43,30 C47.4652213,21.000884 51.6578176,15.3483932 55.577789,13.0425277 C59.4977604,10.7366622 66.6384974,9.7224863 77,10 Z" id="Rectangle-37" fill="#FBFBFB"></path>
+            <circle id="Oval-15" fill="#1E2935" cx="41" cy="72" r="17"></circle>
+            <circle id="Oval-15" fill="#1E2935" cx="166" cy="72" r="17"></circle>
+            <polygon id="Rectangle-36" fill="#FBFBFB" points="82 10 121 10 136.907111 30 82 30"></polygon>
+        </g>
+    </g>
+</svg>
