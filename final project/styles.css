@@ -2,6 +2,9 @@
 body {
 	text-align: left;
 	color: #1E2935;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 30px;
 }
 
 h1 {
@@ -21,6 +24,7 @@ h2 {
 h3 {
 	font-family: 'Raleway', sans-serif;
 	font-size: 24px;
+	padding: 5px;
 }
 
 h4 {
@@ -32,6 +36,7 @@ h4 {
 	padding-left: 85px;
 	padding-right: 85px;
 }
+
 .hero {
 	padding-left: 85px;
 	padding-right: 85px;
@@ -66,6 +71,132 @@ div.about-container {
     margin: auto;
 }
 
+
+.panasonic {
+	background-image: url('assets/illustrations/CitySkyline.svg');
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
+    background-clip: padding-box;
+}
+
+
+.ourpath {
+	background-image: url('assets/illustrations/Broccoli.svg'), url('assets/illustrations/Carrot.svg'), url('assets/illustrations/Pear.svg'), url('assets/illustrations/Pepper.svg'), url('assets/illustrations/Watermelon.svg');
+    background-repeat: no-repeat;
+    background-position: 0% 100%, 20% 80%, 40% 60%, 80% 20%, 100% 0%;
+    background-clip: padding-box;
+}
+
+.kaiser {
+	background-image: url('assets/illustrations/ReflexHammer.svg'), url('assets/illustrations/Stethoscope.svg');
+    background-repeat: no-repeat;
+    background-position: 50% 50%, 100% 0%;
+    background-clip: padding-box;
+}
+
+.westernunion {
+	background-image: url('assets/illustrations/GreenCar.svg'), url('assets/illustrations/RedCar.svg'), url('assets/illustrations/YellowCar.svg');
+    background-repeat: no-repeat;
+    background-position: 0% 100%, 50% 50%, 100% 0%;
+    background-clip: padding-box;
+}
+
+
+.ams {
+	background-image: url('assets/illustrations/GreenGraph.svg');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 100% 100%;
+    background-clip: padding-box;
+}
+
+.vlocitysystem {
+	background-image: url('assets/illustrations/Atom.svg'), url('assets/illustrations/Atom.svg'), url('assets/illustrations/Atom.svg');
+    background-repeat: no-repeat;
+    background-position: 0% 100%, 50% 50%, 100% 0%;
+    background-clip: padding-box;
+}
+
+.vlocityapp {
+	background-image: url('assets/illustrations/Shield.svg');
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
+    background-clip: padding-box;
+}
+
+
+
+@media(max-width:767px){
+
+	h1 {
+	font-size: 56px;
+	}
+
+	h2 {
+	font-size: 22px;
+	line-height: 35px;
+	}
+
+	h3 {
+	font-size: 16px;
+	padding: 10px;
+	}
+
+	h4 {
+	font-size: 32px;
+	}
+
+	.myname {
+	padding-left: 35px;
+	padding-right: 35px;
+	}
+
+	.hero {
+	padding-left: 35px;
+	padding-right: 35px;
+	margin-bottom: 50px;
+	padding-top: 10px;
+	}
+
+	.work {
+	padding-left: 35px;
+	padding-right: 35px;
+	}
+
+	.about {
+    padding-left: 35px;
+    padding-right: 35px;
+	}
+
+	.panasonic {
+	background-size: 75%;
+	}
+
+	.ourpath {
+    background-size: 25%, 25%, 25%, 25%, 25%;
+	}
+
+	.kaiser {
+	background-size: 50%, 50%;
+	}
+
+	.westernunion {
+	background-size: 25%, 25%, 25%;
+	}
+
+
+	.ams {
+	background-size: 100%;
+	}
+
+	.vlocitysystem {
+	background-size: 25%, 25%, 25%;
+	}
+
+	.vlocityapp {
+	background-size: 75%;
+	}
+}
 
 
 
