@@ -1,22 +1,26 @@
 // Users should be able to:
 // 1. Enter an item into #item
 // 2. Click on #clickme
-$('#clickme').click(function () {
-  handleClick();
-
-})
+$('#clickme').click(handleClick);
 
 
 function handleClick() {
   var newItem = $('#item').val();
-  var newItem = "<li>" + newItem + "</li>";
 
-  appendItem(newItem)
+  if (newItem == '') {
+  	alert('You did not enter anything!')
+  } else {
+		appendItem(newItem);
+
+		$('#item').val('');
+		$('#item').focus();
 }
 
 
- function appendItem() {
-  $('#list').append(newItem);
+ function appendItem(newItem) {
+  $('#list').append('<li>'+newItem+'</li>');
+}
+
 
 }
 
