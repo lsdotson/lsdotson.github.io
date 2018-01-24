@@ -1,12 +1,38 @@
-// The following can be written in 3 lines of jQuery/JavaScript!
+// Hover over "Product Designer in San Francisco"
+// Start CSS animation of block and ball
 
-// 1. Add a .click() handler to elements with the class of .row
+// Hover over "Shaped the future of cities"
+// Start CSS animation of plane flying over city
+// Loop animation while text is being hovered over
+// If hovering stops, last animation cycle completes
 
 
-$('.row').click(Accordion() {
-	var newVariable = $(this).find('.wrapper')
-	(newVariable).slideToggle()
-}
-// 2. Associate this .click() handler with an anoymous function (in other words, "pass" .click() and anonymous function)
-// 3. Inside the body of the anonymous function, use the concept of $(this) to .find() the <div class="wrapper">
-// 4. Once you find the .wrapper, use the .slideToggle() function to trigger the desired behavior
+// Hover over "Helped people get healthy"
+// Start CSS animation of fruits and veggies
+// Loop animation while text is being hovered over
+// If hovering stops, last animation cycle completes
+
+// Hover over "Helped people stay healthy"
+// Start CSS animation of doctor's hammer
+// Loop animation while text is being hovered over
+// If hovering stops, last animation cycle completes
+
+// Hover over "Saved a ton on gas money"
+// Start CSS animation of cars 
+// Loop animation while text is being hovered over
+// If hovering stops, last animation cycle completes
+
+// Hover over "Measured and saved power"
+// Start CSS animation of a yellow line 
+// Loop animation while text is being hovered over
+// If hovering stops, last animation cycle completes
+
+// Hover over "Made an atomic design system"
+// Start CSS animation of electrons on atoms swinging around
+// Loop animation while text is being hovered over
+// If hovering stops, last animation cycle completes
+
+// Hover over "Sprinted on a micro-insurance app"
+// Start CSS animation of shiny shield
+// Loop animation while text is being hovered over
+// If hovering stops, last animation cycle completes
