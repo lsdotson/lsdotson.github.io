@@ -7,6 +7,12 @@
 // If hovering stops, last animation cycle completes
 
 
+$('panasonic').hover(function(){
+    $('plane').css('animation-play-state', 'running');
+    }, function(){
+    $('plane').css('animation-play-state', 'paused');
+});
+
 // Hover over "Helped people get healthy"
 // Start CSS animation of fruits and veggies
 // Loop animation while text is being hovered over

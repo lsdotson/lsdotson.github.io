@@ -83,21 +83,24 @@ div.about-container {
 .ourpath {
 	background-image: url('assets/illustrations/Broccoli.svg'), url('assets/illustrations/Carrot.svg'), url('assets/illustrations/Pear.svg'), url('assets/illustrations/Pepper.svg'), url('assets/illustrations/Watermelon.svg');
     background-repeat: no-repeat;
-    background-position: 0% 100%, 20% 80%, 40% 60%, 80% 20%, 100% 0%;
+    background-position-y: 100%;
+    background-position-x: 20%, 40%, 60%, 80%, 100%;
     background-clip: padding-box;
 }
 
 .kaiser {
 	background-image: url('assets/illustrations/ReflexHammer.svg'), url('assets/illustrations/Stethoscope.svg');
     background-repeat: no-repeat;
-    background-position: 50% 50%, 100% 0%;
+    background-position-y: 100%;
+    background-position-x: 50%, 100%;
     background-clip: padding-box;
 }
 
 .westernunion {
 	background-image: url('assets/illustrations/GreenCar.svg'), url('assets/illustrations/RedCar.svg'), url('assets/illustrations/YellowCar.svg');
     background-repeat: no-repeat;
-    background-position: 0% 100%, 50% 50%, 100% 0%;
+    background-position-y: 100%, 60%, 20%;
+    background-position-x: 20%, 60%, 100%;
     background-clip: padding-box;
 }
 
@@ -113,7 +116,8 @@ div.about-container {
 .vlocitysystem {
 	background-image: url('assets/illustrations/Atom.svg'), url('assets/illustrations/Atom.svg'), url('assets/illustrations/Atom.svg');
     background-repeat: no-repeat;
-    background-position: 0% 100%, 50% 50%, 100% 0%;
+    background-position-y: 100%;
+    background-position-x: 0%, 50%, 100%;
     background-clip: padding-box;
 }
 
@@ -198,5 +202,19 @@ div.about-container {
 	}
 }
 
+.plane {
+  position: relative;
+  left: 50%;
+  animation: 3s flyPlane infinite;
+  animation-play-state: paused; 
+}
 
+
+@keyframes flyPlane {  
+  from {
+      left: 50%;
+  }
+  to {
+      left: 90%;
+  }
 
