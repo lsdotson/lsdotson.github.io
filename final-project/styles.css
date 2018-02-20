@@ -96,7 +96,7 @@ a:hover {
     background-color: #FBFBFB;
     font-size: 64px;
     padding-top: 60px;
-    padding-bottom: 20px;
+    padding-bottom: 60px;
     padding-left: 85px;
     padding-right: 85px;
 }
@@ -233,35 +233,45 @@ div.about-container {
 		background-position-y: 50%;
 	}
 
-	.plane {
+	#plane {
 		display: none;
 	}
 
 	.westernunion {
-		background-size: 30%;
+		background-image: url('assets/illustrations/GreenCar.svg');
+		background-size: contain;
+		background-position-x: 80%;
+		background-position-y: 50%;
 	}
 
 	.ourpath {
 		background-image: url('assets/illustrations/Broccoli.svg');
 		background-size: contain;
+		background-position-x: 80%;
 	}
 
 	.kaiser {
 		background-image: url('assets/illustrations/Stethoscope.svg');
 	    background-size:contain;
 	    background-clip: padding-box;
+	    background-position-x: 80%;
 	}
 
 	.ams {
-		background-size: contain;
+		background-image: url('assets/illustrations/GreenGraph.svg'), url('assets/illustrations/GreenGraph.svg');
+		background-size: 150%, 200%;
+		background-position-y: 50%, 80%;
+		background-position-x: 80%, 30%;
 	}
 	.vlocitysystem {
 		background-image: url('assets/illustrations/Atom.svg');
 		background-size: contain;
+		background-position-x: 80%;
 	}
 
 	.vlocityapp {
 		background-size: contain;
+		background-position-x: 80%;
 	}
 
 	.about {
@@ -273,12 +283,7 @@ div.about-container {
 }
 
 
-#panasoniclink:hover {
-	 animation: 3s flyPlane infinite;
-	animation-play-state:running;
-}
-
-.plane {
+#plane {
   position: relative;
   left: 50%;
   animation: 3s flyPlane infinite;

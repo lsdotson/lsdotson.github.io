@@ -8,11 +8,16 @@
 
 
 
+$(document).ready(function(){
+    $("#panasoniclink").hover(function()
+    {
+        $("#plane").css("animation-play-state", "running");
+    }, function()
+    {
+        $("#plane").css("animation-play-state", "paused");
+    });
+  });
 
-
-$("#panasoniclink").hover(function(){
-    $(".plane").css("animation-play-state", "running");
-});
 
 
 // Hover over "Helped people get healthy"
